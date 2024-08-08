@@ -6,6 +6,9 @@
     font-family: 'Times New Roman', Times, serif;
     
 }
+body{
+    /* overflow-x: hidden; */
+}
 .header{
     display: flex;
     gap: 10rem;
@@ -465,10 +468,219 @@ footer h3{
         background-size: cover;
     }
 }
+@media(max-width:1024px){
+    body{
+       /* overflow-x: hidden; */
+       /* overflow: hidden; */
+   }
+   .head a{
+       font-size: 25px;
+       /* padding: 10px; */
+       overflow: hidden;
+       position: fixed;
+       top: 0;
+       width: 100%;
+       margin-top: 10px;
+   }
+   .head1 {
+       /* display: block; */
+       font-size: 10px;
+       margin-left: -50px;
+       margin-top: -20px;
+       padding-top: 20px;
+   }
+   #head2{
+       display: none;
+   }
+   .body{
+      height: 40vh;
+      width: 100vw;
+      padding-top: 40px;
+      margin-top: 50px;
+      background: url(kiddd.jpg);
+      background-size: cover;
+      background-position: center;
+      animation: now;
+      animation-duration: 2s;
+      padding-left: 20vw;
+
+      /* text-align: left; */
+   }
+   @keyframes now {
+       0%{
+           background: url(kiddd.jpg);
+           background-size: cover;
+           background-position: center;
+       }
+       100%{
+           background: url(kidddd2.jpg);
+           background-size: cover;
+           background-position: center;
+       }
+   }
+   .body h1{
+       font-size:50px;
+       margin-left: -120px;
+   }
+   .body p{
+       font-size:20px;
+       margin-left: -100px;
+   }
+   #first{
+       margin-left: -100px;
+       margin-right: 70px;
+       padding: 15px;
+       /* display: flex; */
+   }
+   #second{
+   margin-left: -65px;
+   padding: 15px;
+   }
+   .sch h2{
+       font-size: 26px;
+   }
+   .sch p{
+       font-size: 15px;
+   }
+   .dey{
+   
+   }
+   .shapes{
+       margin-left:-100px ;
+       margin-top: -100px;
+       /* text-align: left; */
+   }
+   .shapes h2{
+       font-size: 30px;
+   }
+   .shapes p{
+       font-size: 18px;
+   }
+   .angle{
+   display: none;
+   }
+   .midd{
+       display: grid ;
+       margin: 10px;
+       /* overflow-x: hidden; */
+   }
+   .poot img{
+       height: 40vh;
+       margin-left: 20px;
+       margin-right: 20px;
+   }
+   .mid{
+       padding-top: 5px;
+       padding-bottom: 20px;
+   }
+   .midd h2{
+       font-size: 24px;
+   }
+   .midd p{
+       font-size: 14px;
+   }
+   .loot h2{
+       font-size: 24px;
+   }
+   .loot p{
+       font-size: 14px;
+   }
+   .yet{
+       padding-left: 40px;
+   }
+   .yets{
+    padding-left: 40px;
+   }
+   .back{
+       margin-left: 10px;
+   }
+   .zoe{
+       display: grid;
+       /* overflow-x: hidden; */
+
+   }
+   .zoes{
+       display: grid;
+       width: 70vw;
+       padding-bottom: 30px;
+   }
+   .zoes h3{
+       font-size: 24px;
+   }
+   .zoes input{
+       font-size: 14px;
+       width: 50vw;
+       justify-content: center;
+   }
+   #zet{
+       padding: 20px;
+   }
+   .ket img{
+       height: 37vh;
+       margin-top: 40px;
+       /* width: 40vw; */
+       
+       
+   }
+   .ven h2{
+       font-size: 26px;
+   }
+   .ven p{
+       font-size:15px ;
+   }
+   .teaches {
+       margin: -40px;
+       
+   }
+   footer{
+       height: 100vh;
+       display: grid;
+       width: 100vw;
+       /* margin-left: -100px; */
+       /* padding-top: -70px; */
+   }
+   .foot{
+       /* padding-left: -70px; */
+       margin-left: -100px;
+   }
+   .foot h3{
+       font-size: 26px;
+   }
+   .foot p{
+       font-size: 16px;
+   }
+   .last{
+       margin-left: -130px;
+   }
+   .last h3{
+       font-size: 26px;
+       padding-top: 20px;
+   }
+   .last li a{
+       font-size: 16px;
+       margin-left: -10px;
+   }
+   .gall{
+       margin-left: -100px;
+       /* padding-bottom: 20px; */
+   }
+   .imageee{
+       display: flex;
+       margin-left: -25px;
+   }
+   .imageee2{
+       display: flex;
+       margin-left: -px;
+   }
+   
+
+}
+   
+
 
 @media(max-width:767px)  {
     body{
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
         /* overflow: hidden; */
     }
     .head a{
@@ -492,13 +704,13 @@ footer h3{
     .body{
        height: 50vh;
        width: 100vw;
-       padding-top: 40px;
-       margin-top: 50px;
        background: url(kiddd.jpg);
        background-size: cover;
        background-position: center;
        animation: now;
        animation-duration: 2s;
+       /* text-align: center; */
+       
     }
     @keyframes now {
         0%{
@@ -514,20 +726,20 @@ footer h3{
     }
     .body h1{
         font-size:20px;
-        margin-left: -100px;
+        padding-left: 15vw;
     }
     .body p{
         font-size:13px;
-        margin-left: -100px;
+        padding-left: 10vw;
     }
     #first{
-        margin-left: -100px;
+        margin-left: -17vw;
         margin-right: 70px;
         padding: 15px;
         /* display: flex; */
     }
     #second{
-    margin-left: -65px;
+    /* margin-left: -65px; */
     padding: 15px;
     }
     .sch h2{
@@ -538,9 +750,11 @@ footer h3{
     }
     .dey{
         display: grid;
+        margin-bottom: 50px;
     }
     .shapes{
-        margin-left:-100px ;
+        margin-left:-100px;
+        /* margin-top: -100px; */
     }
     .shapes h2{
         font-size: 24px;
@@ -557,9 +771,9 @@ footer h3{
         /* overflow-x: hidden; */
     }
     .poot img{
-        height: 40vh;
-        margin-left: 20px;
-        margin-right: 20px;
+        height: 37vh;
+        margin-left: 30px;
+        margin-right: 29px;
     }
     .mid{
         padding-top: 5px;
@@ -580,6 +794,9 @@ footer h3{
     .yet{
         padding-left: 40px;
     }
+    .yets{
+        padding-left: 40px;
+    }
     .back{
         margin-left: 10px;
     }
@@ -590,7 +807,8 @@ footer h3{
     }
     .zoes{
         display: grid;
-        padding-left: 50px;
+        /* margin-left: 50px; */
+        width: 85vw;
     }
     .zoes h3{
         font-size: 24px;
@@ -604,10 +822,9 @@ footer h3{
         padding: 20px;
     }
     .ket img{
-        height: 40vh;
-        
-        
-    }
+        height: 30vh;
+        margin-left: 20px;
+     }
     .ven h2{
         font-size: 26px;
     }
@@ -659,4 +876,3 @@ footer h3{
     }
     
 }
-    
